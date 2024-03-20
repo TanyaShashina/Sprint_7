@@ -5,22 +5,22 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import REQ_function.courierCreateReq;
-import RESP_function.courierCreateResp;
+import reqfunction.courierCreateReq;
+import respfunction.courierCreateResp;
 
-import static API_function.courier.*;
-import static API_function.constant.*;
+import static apifunction.courier.*;
+import static apifunction.constant.*;
 import static org.apache.http.HttpStatus.SC_BAD_REQUEST;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class Courier_CreateWOParamTest extends BasikTest{
+public class CourierCreateWOParamTest extends BasikTest{
 
     private final String login;
     private final String password;
     private final String firstName;
 
-    public Courier_CreateWOParamTest(String login, String password, String firstName) {
+    public CourierCreateWOParamTest(String login, String password, String firstName) {
         this.login = login;
         this.password = password;
         this.firstName = firstName;

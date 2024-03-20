@@ -1,4 +1,4 @@
-package RESP_function.Data;
+package respfunction.Data;
 
 import lombok.Data;
 @Data

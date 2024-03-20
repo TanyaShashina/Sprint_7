@@ -1,4 +1,4 @@
-package API_function;
+package apifunction;
 
 public class constant {
     public static final String BASE_URI = "https://qa-scooter.praktikum-services.ru";

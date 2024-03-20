@@ -1,6 +1,6 @@
-package RESP_function;
+package respfunction;
 
-import RESP_function.Data.*;
+import respfunction.Data.*;
 import lombok.Data;
 
 import java.util.List;

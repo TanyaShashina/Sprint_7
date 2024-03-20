@@ -5,24 +5,24 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import REQ_function.courierLogReq;
-import REQ_function.courierCreateReq;
-import RESP_function.courierLogResp;
+import reqfunction.courierLogReq;
+import reqfunction.courierCreateReq;
+import respfunction.courierLogResp;
 
-import static API_function.constant.*;
+import static apifunction.constant.*;
 import static org.junit.Assert.*;
 
-import static API_function.courier.*;
+import static apifunction.courier.*;
 import static org.apache.http.HttpStatus.SC_BAD_REQUEST;
 
 @RunWith(Parameterized.class)
-public class Courier_LogWOParamTest extends BasikTest{
+public class CourierLogWOParamTest extends BasikTest{
 
     private final String login;
     private final String password;
     private final String firstName = RandomStringUtils.randomNumeric(5);
 
-    public Courier_LogWOParamTest(String login, String password) {
+    public CourierLogWOParamTest(String login, String password) {
         this.login = login;
         this.password = password;
     }

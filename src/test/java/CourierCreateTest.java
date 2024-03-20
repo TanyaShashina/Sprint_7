@@ -1,4 +1,4 @@
-import RESP_function.courierCreateResp;
+import respfunction.courierCreateResp;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
@@ -6,18 +6,18 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import REQ_function.courierLogReq;
-import REQ_function.courierCreateReq;
-import RESP_function.courierLogResp;
+import reqfunction.courierLogReq;
+import reqfunction.courierCreateReq;
+import respfunction.courierLogResp;
 
-import static API_function.courier.*;
-import static API_function.constant.*;
+import static apifunction.courier.*;
+import static apifunction.constant.*;
 import static org.apache.http.HttpStatus.SC_CONFLICT;
 import static org.apache.http.HttpStatus.SC_CREATED;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class Courier_CreateTest extends BasikTest{
+public class CourierCreateTest extends BasikTest{
     private courierCreateReq createCourierReq;
 
     @Before

@@ -1,5 +1,4 @@
-package REQ_function;
-
+package reqfunction;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,8 +6,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class courierLogReq {
+public class courierCreateReq {
     private String login;
     private String password;
-}
+    private String firstName;
 
+}

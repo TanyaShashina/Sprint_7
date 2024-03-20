@@ -1,4 +1,4 @@
-package REQ_function;
+package reqfunction;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

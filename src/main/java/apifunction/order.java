@@ -1,14 +1,14 @@
-package API_function;
+package apifunction;
 
-import REQ_function.orderCreateReq;
+import reqfunction.orderCreateReq;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 
 import java.util.Map;
 
-import static API_function.commonAPI.comReq;
-import static API_function.commonAPI.getReq;
-import static API_function.constant.CREATE_ORDER_ENDPOINT;
+import static apifunction.commonAPI.comReq;
+import static apifunction.commonAPI.getReq;
+import static apifunction.constant.CREATE_ORDER_ENDPOINT;
 
 public class order {
     @Step("Cоздание курьера")

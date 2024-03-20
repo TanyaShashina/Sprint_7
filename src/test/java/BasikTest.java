@@ -1,4 +1,4 @@
-import static API_function.constant.*;
+import static apifunction.constant.*;
 import io.restassured.RestAssured;
 import org.junit.Before;
 public class BasikTest {

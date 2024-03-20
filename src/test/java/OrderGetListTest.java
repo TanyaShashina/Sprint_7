@@ -5,18 +5,18 @@ import lombok.AllArgsConstructor;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import RESP_function.orderGetResp;
+import respfunction.orderGetResp;
 
 import java.util.List;
 import java.util.Map;
 
-import static API_function.order.*;
+import static apifunction.order.*;
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.junit.Assert.assertNotNull;
 
 @RunWith(Parameterized.class)
 @AllArgsConstructor
-public class Order_GetListTest extends BasikTest {
+public class OrderGetListTest extends BasikTest {
     Map<String, Object> body;
 
     @Parameterized.Parameters()

@@ -5,17 +5,17 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import REQ_function.courierLogReq;
-import REQ_function.courierCreateReq;
-import RESP_function.courierLogResp;
+import reqfunction.courierLogReq;
+import reqfunction.courierCreateReq;
+import respfunction.courierLogResp;
 
-import static API_function.courier.*;
-import static API_function.constant.*;
+import static apifunction.courier.*;
+import static apifunction.constant.*;
 import static org.junit.Assert.*;
 
 import static org.apache.http.HttpStatus.SC_NOT_FOUND;
 import static org.apache.http.HttpStatus.SC_OK;
-public class Courier_LogTest extends BasikTest{
+public class CourierLogTest extends BasikTest{
     private courierLogReq courierLoginReq;
 
     @Before

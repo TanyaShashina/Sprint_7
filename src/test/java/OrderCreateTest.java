@@ -7,19 +7,19 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import REQ_function.orderCreateReq;
-import RESP_function.orderCreateResp;
+import reqfunction.orderCreateReq;
+import respfunction.orderCreateResp;
 
 
-import static API_function.constant.Colours.BLACK;
-import static API_function.constant.Colours.GREY;
-import static API_function.order.createOrder;
+import static apifunction.constant.Colours.BLACK;
+import static apifunction.constant.Colours.GREY;
+import static apifunction.order.createOrder;
 import static org.apache.http.HttpStatus.SC_CREATED;
 import static org.junit.Assert.assertNotEquals;
 
 @RunWith(Parameterized.class)
 @AllArgsConstructor
-public class Order_CreateTest extends BasikTest{
+public class OrderCreateTest extends BasikTest{
 
     private String[] colour;
     private final String comment;

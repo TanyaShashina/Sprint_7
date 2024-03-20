@@ -1,11 +1,11 @@
-package RESP_function;
+package respfunction;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class courierLogResp {
-    private int id;
+public class courierCreateResp {
+    private boolean ok;
     private String message;
 }

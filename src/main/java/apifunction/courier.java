@@ -1,12 +1,12 @@
-package API_function;
+package apifunction;
 
-import REQ_function.courierLogReq;
-import REQ_function.courierCreateReq;
+import reqfunction.courierLogReq;
+import reqfunction.courierCreateReq;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 
-import static API_function.commonAPI.*;
-import static API_function.constant.*;
+import static apifunction.commonAPI.*;
+import static apifunction.constant.*;
 
 
 public class courier {
